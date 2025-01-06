@@ -1,0 +1,1 @@
+Add post install "postinstall": "node scripts/postinstall.js", to check for clipboard application

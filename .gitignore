@@ -1,0 +1,14 @@
+# Ignore build output
+/dist
+/node_modules
+/tests
+
+# Ignore IDE files
+.vscode
+.idea
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+.DS_Storepackage-lock.json

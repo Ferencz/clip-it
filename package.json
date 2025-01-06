@@ -1,0 +1,37 @@
+{
+  "name": "clip-it",
+  "version": "1.0.0",
+  "description": "A Node.js library for clipboard operations with support for text and buffers.",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js"
+    }
+  },
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "test": "mocha tests/**/*.js"
+  },
+  "keywords": [
+    "clipboard",
+    "text",
+    "buffer",
+    "cross-platform"
+  ],
+  "author": "Ferencz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.5",
+    "chai": "^5.1.2",
+    "esm": "^3.2.25",
+    "mocha": "^11.0.1",
+    "typescript": "^5.7.2"
+  }
+}
