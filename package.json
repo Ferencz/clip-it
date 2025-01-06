@@ -23,6 +23,10 @@
     "buffer",
     "cross-platform"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ferencz/clip-it.git"
+  },
   "author": "Ferencz",
   "license": "ISC",
   "devDependencies": {
