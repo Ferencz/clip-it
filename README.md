@@ -51,7 +51,7 @@ fs.writeFileSync('output.pdf', clipboardContent); // Save the buffer to a file
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ferencz/node-clip-it.git
+   git clone https://github.com/Ferencz/clip-it.git
    cd node-clip-it
    
 Install the package using npm:
@@ -199,7 +199,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ---
 
 ## Support
-If you encounter any issues or have questions, please [open an issue](https://github.com/Ferencz/node-clip-it/issues).
+If you encounter any issues or have questions, please [open an issue](https://github.com/Ferencz/clip-it/issues).
 
 
 Enjoy using **Clip It**! 🎉
