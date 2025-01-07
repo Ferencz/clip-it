@@ -1,6 +1,6 @@
-# Clip It
+# Node Clip It
 
-**Clip It** is a Node.js library for clipboard operations with support for **text** and **buffers**. It provides both **synchronous** and **asynchronous** methods for reading from and writing to the clipboard. The library works on **Windows**, **Linux**, and **macOS**.
+**Node Clip It** is a Node.js library for clipboard operations with support for **text** and **buffers**. It provides both **synchronous** and **asynchronous** methods for reading from and writing to the clipboard. The library works on **Windows**, **Linux**, and **macOS**.
 
 ## Features
 - **Cross-platform**: Works on Windows, Linux, and macOS.
@@ -21,7 +21,7 @@ Clip It supports copying and pasting **all file types** as buffers, including:
 
 ### Example: Copying and Pasting a PDF
 ```javascript
-import ClipIt from 'clip-it';
+import ClipIt from 'node-clip-it';
 import fs from 'fs';
 
 const clip = new ClipIt();
@@ -51,13 +51,13 @@ fs.writeFileSync('output.pdf', clipboardContent); // Save the buffer to a file
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ferencz/clip-it.git
-   cd clip-it
+   git clone https://github.com/Ferencz/node-clip-it.git
+   cd node-clip-it
    
 Install the package using npm:
 
 ```bash
-npm install clip-it
+npm install node-node-clip-it
 ```
 
 ---
@@ -67,10 +67,10 @@ npm install clip-it
 ### Import the Library
 ```javascript
 // Using ES Modules
-import ClipIt from 'clip-it';
+import ClipIt from 'node-clip-it';
 
 // Using CommonJS
-const ClipIt = require('clip-it');
+const ClipIt = require('node-clip-it');
 ```
 
 ### Create an Instance
@@ -199,7 +199,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ---
 
 ## Support
-If you encounter any issues or have questions, please [open an issue](https://github.com/Ferencz/clip-it/issues).
+If you encounter any issues or have questions, please [open an issue](https://github.com/Ferencz/node-clip-it/issues).
 
 
 Enjoy using **Clip It**! 🎉
